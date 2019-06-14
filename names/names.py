@@ -58,12 +58,12 @@ f.close()
 
 duplicates = []
 
-BinaryTest = BinarySearchTree('new_name')
+BinaryName = BinarySearchTree('new_name')
 for i in names_1:
-    BinaryTest.insert(i)
+    BinaryName.insert(i)
 
 for j in names_2:
-    if BinaryTest.contains(j):
+    if BinaryName.contains(j):
         duplicates.append(j)
 
 # for name_1 in names_1:

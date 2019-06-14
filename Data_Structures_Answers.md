@@ -14,11 +14,15 @@ O(n) it contains a for loop that depends on the capacity of the data structure
 
 4. What is the space complexity of your ring buffer's `get` method?
 
-
+O(n) it depends on the size of data structure.
 
 5. What is the runtime complexity of the provided code in `names.py`?
 
+O(n ^ 2) there are 2 for loops in the provided code and it both depends on the size of the txt.file of names.
+
 6. What is the space complexity of the provided code in `names.py`?
+
+O(n) the space used is the amount it needs to fit the duplicate array.
 
 7. What is the runtime complexity of your optimized code in `names.py`?
 
