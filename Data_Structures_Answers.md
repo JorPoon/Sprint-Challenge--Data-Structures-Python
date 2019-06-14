@@ -2,6 +2,8 @@ Add your answers to the questions below.
 
 1. What is the runtime complexity of your ring buffer's `append` method?
 
+O(1) because the item append is only one at a time or fixed amount at a time.
+
 2. What is the space complexity of your ring buffer's `append` function?
 
 3. What is the runtime complexity of your ring buffer's `get` method?
