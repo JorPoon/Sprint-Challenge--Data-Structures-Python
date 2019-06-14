@@ -14,6 +14,8 @@ class RingBuffer:
       self.current = 0
 
   def get(self):
+    #search through list for "None"
+    #Return data by slicing out None
     for i in range(len(self.storage)):
       if self.storage[i] == None:
         return self.storage[:i]
