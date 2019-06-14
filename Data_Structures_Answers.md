@@ -6,6 +6,8 @@ O(1) because the item append is only one at a time or fixed amount at a time.
 
 2. What is the space complexity of your ring buffer's `append` function?
 
+0(1) because there is a fixed amount of capacity
+
 3. What is the runtime complexity of your ring buffer's `get` method?
 
 4. What is the space complexity of your ring buffer's `get` method?
