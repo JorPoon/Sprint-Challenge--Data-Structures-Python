@@ -26,4 +26,8 @@ O(n) the space used is the amount it needs to fit the duplicate array.
 
 7. What is the runtime complexity of your optimized code in `names.py`?
 
+O(n) + O(n) = O(2n) = O(n) since I ran two loops that are not nested.
+ 
 8. What is the space complexity of your optimized code in `names.py`?
+
+O(n) requires the same space as provided code.
