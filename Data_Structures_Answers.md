@@ -18,7 +18,7 @@ O(n) it depends on the size of data structure.
 
 5. What is the runtime complexity of the provided code in `names.py`?
 
-O(n ^ 2) there are 2 for loops in the provided code and it both depends on the size of the txt.file of names.
+O(n ^ 2) there are 2 for loops and they are nested in the provided code. 
 
 6. What is the space complexity of the provided code in `names.py`?
 
